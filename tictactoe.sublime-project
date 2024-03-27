@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"path": "bin/.."
+		}
+	],
+	"build_systems":
+		[
+			{
+				"name": "Run",
+				"target": "terminus_exec",
+    				"cancel": "terminus_cancel_build",
+				"working_dir": "${project_path}",
+				"cmd": ["make"],
+				"selector": "source.c++",
+				//"shell": true
+			}
+		]
+}
