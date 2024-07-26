@@ -1,7 +1,9 @@
+#include <cstdio>
 #include <iostream>
 #include <random>
 #include "board.h"
 #include "player.h"
+#include <cstdlib>
 
 using namespace std;
 
@@ -50,9 +52,12 @@ int main()
         }
         game++;
     }
+  
     if(game==4)
         cout <<"TIE mate! next time" << endl;
 
-
+    
+    cout << endl;
+    system("read -n 1 -s -p \"Press any key to continue...\"");
     return 0;
 }

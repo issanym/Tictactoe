@@ -1,0 +1,56 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-O3",
+      "-I",
+      "headers",
+      "-c",
+      "-o",
+      "build/board.o",
+      "src/board.cpp"
+    ],
+    "directory": "/home/issajn/Documents/codehub/CPP new/tictactoe",
+    "file": "/home/issajn/Documents/codehub/CPP new/tictactoe/src/board.cpp",
+    "output": "/home/issajn/Documents/codehub/CPP new/tictactoe/build/board.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-O3",
+      "-I",
+      "headers",
+      "-c",
+      "-o",
+      "build/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/home/issajn/Documents/codehub/CPP new/tictactoe",
+    "file": "/home/issajn/Documents/codehub/CPP new/tictactoe/src/main.cpp",
+    "output": "/home/issajn/Documents/codehub/CPP new/tictactoe/build/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++14",
+      "-Wall",
+      "-Wextra",
+      "-O3",
+      "-I",
+      "headers",
+      "-c",
+      "-o",
+      "build/player.o",
+      "src/player.cpp"
+    ],
+    "directory": "/home/issajn/Documents/codehub/CPP new/tictactoe",
+    "file": "/home/issajn/Documents/codehub/CPP new/tictactoe/src/player.cpp",
+    "output": "/home/issajn/Documents/codehub/CPP new/tictactoe/build/player.o"
+  }
+]

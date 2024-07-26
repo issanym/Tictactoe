@@ -9,14 +9,18 @@ INCDIR := headers
 BUILDDIR := build
 BINDIR := bin
 
+# --------------------------------------
+DIRNAME := $(shell basename "$(PWD)")
+# --------------------------------------
+
 # Files
 SRCS := $(wildcard $(SRCDIR)/*.cpp)
 OBJS := $(patsubst $(SRCDIR)/%,$(BUILDDIR)/%,$(SRCS:.cpp=.o))
-TARGET := $(BINDIR)/tictactoe
+TARGET := $(BINDIR)/$(DIRNAME)
 
 # Targets
 all: $(TARGET)
-	./$(TARGET)
+	./exec.sh
 
 $(TARGET): $(OBJS)
 	@mkdir -p $(BINDIR)
